@@ -23,4 +23,10 @@ class Base extends BaseController
     // view
     public function view()
     {}
+
+    // options
+    public function options( string $key )
+    {
+        return;
+    }
 }

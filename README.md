@@ -14,6 +14,7 @@
 #### 计划
 
 - 基础权限管理:登录，注册，用户管理，权限管理；
+- SSO 单点登录；
 - 上传，资源管理；
 - 通知（邮箱，短信，第三方）；支付(卡密支付，扫码支付)；
 - 插件和钩子；
@@ -124,7 +125,6 @@ composer require rosell-dk/webp-convert
 Apidoc是一个通过解析注解生成Api接口文档的PHPcomposer扩展；兼容Laravel、ThinkPHP、Hyperf、Webman等框架；
 https://docs.apidoc.icu/
 https://github.com/HGthecode/apidoc-php
-
 ```
 composer require hg/apidoc
 ```
@@ -141,6 +141,20 @@ https://lcobucci-jwt.readthedocs.io/en/stable/
 composer require lcobucci/jwt
 ```
 
+
+#### paragonie/paseto
+平台无关的安全令牌
+https://paseto.io/
+https://github.com/paragonie/paseto
+
+#### UUID 
+用户唯一标识
+A PHP library for generating universally unique identifiers (UUIDs). 
+https://github.com/ramsey/uuid
+https://uuid.ramsey.dev
+```
+composer require ramsey/uuid
+```
 
 ### 其他框架
 

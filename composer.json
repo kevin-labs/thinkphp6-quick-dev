@@ -29,7 +29,8 @@
         "casdoor/casdoor-php-sdk": "*",
         "league/flysystem": "^3.0.0",
         "hg/apidoc-thinkphp": "^3.1",
-        "rosell-dk/webp-convert": "^2.9"
+        "rosell-dk/webp-convert": "^2.9",
+        "ramsey/uuid": "^4.7"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",

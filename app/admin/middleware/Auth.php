@@ -9,7 +9,7 @@ class Auth
         // 当前URL
         $current_url = $request->url();
         
-        d($request,$current_url,pathinfo($current_url));
+        // d($request,$current_url,pathinfo($current_url));
 
         // 当前User
         $current_user = [
